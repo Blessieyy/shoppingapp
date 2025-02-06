@@ -1,0 +1,57 @@
+.navbar-container {
+    height: 55px;
+    box-shadow: 0 3px 6px rgba(192, 10, 238, 0.274) ;
+    background-color:rgb(43, 2, 59) ;
+    color: rgb(255, 255, 255) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  .logo{
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    span{
+        color: rgb(234, 0, 255);
+        
+    }
+    
+}
+.nav-links{
+  a{
+  margin-left: 1em;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  font-size: .9em;
+  background-color: blueviolet;
+  padding: .5rem;
+  border-radius: 5px;
+  &::before{
+      content: '';
+      display: inline-block;
+      height: 3px;
+      width: 100%;
+      background-color:rgb(195, 45, 224); 
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      transform: scaleX(0);
+      transition: transform calc(0.2s) ease-in-out;
+  }
+  &:hover{
+      &::before{
+          transform: scaleX(1);
+      }
+  }
+
+}
+}
+
+
+
+  

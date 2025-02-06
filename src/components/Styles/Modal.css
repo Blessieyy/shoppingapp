@@ -1,0 +1,44 @@
+.modal-container{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4e4a4a;
+}
+
+.modal {
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: rgb(34, 34, 34);
+    width: 25em;
+    color: aliceblue;
+
+}
+.input{
+    background-color: transparent;
+    color: aliceblue;
+    
+    
+}
+.pick{
+    background-color: rgb(34, 34, 34);
+}
+
+.modal .btn{
+    display: block;
+    margin: auto;
+    
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #df4759;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
